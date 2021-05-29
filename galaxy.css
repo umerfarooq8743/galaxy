@@ -1,0 +1,302 @@
+
+#main{
+	width:1000px;
+	height:auto;
+	background-color:white;
+}
+
+/*----header----*/
+
+#header{
+	width:1000px;
+	height:110px;
+	background-color:white;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px grey;
+	float:left;
+}
+#name
+{
+	text-align : center ;
+	margin-top : -155px ;
+	font-size : 40px ;
+	color : black ;
+	margin-left:80px;
+}
+#Subname{
+	text-align : center ;
+	margin-top : -145px ;
+	font-size : 15px ;
+	color :LightSeaGreen;
+	margin-right:-235px;
+}
+
+/*----menu----*/
+
+#menu{
+	width:795px;
+	height:50px;
+	background-color:black;
+	margin-top:8px;
+	margin-left:2px;
+	float:right;
+	box-shadow: 3px 5px 5px grey;
+	border-radius: 10px;
+}
+#topnav {
+  background-color: #000000;
+}
+#topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 13.5px 19.3px;
+  text-decoration: none;
+  font-size: 20px;
+  width:160px;
+}
+#topnav a:hover {
+  background-color: LightSeaGreen;
+  color: black;
+  border-radius: 10px;
+}
+	
+/*----body----*/	
+	
+#page{
+	width:1000px;
+	height:560px;
+	background-color:white;
+}
+
+#leftarea{
+	width:200px;
+	height:554px;
+	background-color:LightSeaGreen;
+	margin-top:7px;
+	float:left;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px grey;
+}
+#midarea{
+	width:378px;
+	height:500px;
+	background-color:white;
+	margin:6px	0px	0px	6px;
+	float:left;
+	border-radius:15px;
+	padding-left:10px;
+	box-shadow: 5px 5px 5px grey;
+}		
+#rightarea{
+	width:400px;
+	height:500px;
+	background-color:LightSeaGreen;
+	margin-top:6px;
+	float:right;
+	border-radius:15px;
+	box-shadow: 5px 5px 5px grey;
+}
+#solar{
+	width:350px;
+	height:350px;
+	padding:20px 20px;
+}
+#solartext{
+	width:360px;
+	height:50px;
+	background-color:black;
+	margin-left:20px;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px teal;
+	cursor:pointer;
+}
+#planettext{
+	width:180px;
+	height:40px;
+	background-color:black;
+	margin-left:10px;
+	margin-top:10px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px teal;
+	cursor:pointer;
+}
+
+
+
+
+
+#nav
+{
+	background: #000;
+	margin-top: 25px;
+	padding: 12px;
+	text-align: center;
+	font-family: Raleway;
+	box-shadow: 5px 5px 5px teal;
+	border-radius: 10px;
+}
+
+#list
+{
+	float: center;
+	padding:8px;
+}
+#list a{
+	font-size: 16px;
+    color: white;
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+	border:2px solid LightSeaGreen;
+	margin-left:-40px;
+}
+#list a:hover{
+	background-color: LightSeaGreen;
+	color: black;
+	border-radius: 10px;
+
+}
+
+
+
+#menu1{
+	width:1000px;
+	height:50px;
+	background-color:black;
+	margin-top:6px;
+	float:left;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px grey;
+}
+#topnav1 {
+  background-color: #000000;
+}
+#topnav1 a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 17.5px;
+  text-decoration: none;
+  font-size: 19px;
+  width:21.5%;
+}
+#topnav1 a:hover {
+  background-color: LightSeaGreen;
+  color: black;
+  border-radius: 10px;
+}
+
+#gallery{
+	width:1000px;
+	height:auto;
+	margin-top:6px;
+	float:left;
+}
+#page1{
+	width:1000px;
+	height:400px;
+	background-color:white;
+	float:left;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px grey;
+	margin-top:6px;
+}	
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 99%;
+  margin-left:6px;
+  margin-top:30px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+#customers td, #customers th {
+  border: 1px solid grey;
+  padding: 6px;
+  text-align: center;
+  cursor:pointer;
+}
+
+#customers tr:{background-color: #000000;}
+
+#customers tr:hover {background-color: #000000;color:white;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: LightSeaGreen;
+  color: #000000;
+}
+/*----footer----*/
+#footer{
+	width:1000px;
+	height:180px;
+	background-color:black;
+	float:left;
+	border-radius: 10px;
+	margin-top:8px;
+	box-shadow: 5px 5px 5px grey;
+}
+
+#foot{
+	width:320px;
+	height:80px;
+	margin:10px 0px 0px 340px;
+	background-color: #000000;
+	float:left;
+}
+#footext{
+	width:230px;
+	height:35px;
+	margin:10px 0px 0px 380px;
+	background-color: LightSeaGreen;
+	float:left;
+	border-radius: 10px;
+	text-align:center;
+	padding-bottom:20px;
+	cursor:pointer;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width:17px;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px 0px 0px 5px;
+  border-radius: 10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+	color: black;
+}
+
+.fa-facebook {
+  background:LightSeaGreen ;
+  color: white;
+  float:left;
+}
+
+.fa-twitter {
+  background: LightSeaGreen;
+  color: white;
+  float:left;
+}
+.fa-google {
+  background: LightSeaGreen;
+  color: white;
+  float:left;
+}
+.fa-snapchat-ghost {
+  background: LightSeaGreen;
+  color: white;
+  float:left;
+}
+.fa-instagram {
+  background: LightSeaGreen;
+  color: white;
+  float:left;
+}

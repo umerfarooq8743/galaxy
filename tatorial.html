@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+<!---The Modal (background)--->
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+
+  background-color: teal;
+  margin-left:100px;
+  padding: 0;
+  border: 1px solid #000000;
+  width: 252px;
+  box-shadow: 5px 5px 5px gray;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 1.5s;
+  animation-name: animatetop;
+  animation-duration: 2s;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 30px;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #000000;
+  color: white;
+  width:220px;
+  height:235px;
+}
+
+.modal-body {
+padding: 2px 16px;
+background-color: white;
+width:220px;
+height:250px;	
+}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #000000;
+  color: white;
+  width:220px;
+}
+</style>
+</head>
+<body>
+
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Open Modal</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+		<span class="close">&times;</span>
+		<img src="images/8.gif" alt="logo" width="220px" height="200px">
+    </div>
+    <div class="modal-body">
+      
+
+	  <p style="color:black; font-size:80%;"><b>Discovered by:</b> Urbain Le Verrier</p>
+	  <p style="color:black; font-size:80%;"><b>Discovery date:</b> 23 September 1846</p>
+	  <p style="color:black; font-size:80%;"><b>Natural Satellites:</b> 8 (Eight)</p>
+	  <p style="color:black; font-size:80%;"><b>Radius:</b> 24,622 km</p>
+	  <p style="color:black; font-size:80%;"><b>Surface area:</b> 7.618 billion km<sup>2</sup></p>
+	  <p style="color:black; font-size:80%;"><b>Distance from Sun:</b> 4.495 billion km</p>
+	  <p style="color:black; font-size:80%;"><b>Moons:</b> Triton, Nereid, Naiad, Thalassa, Despina, Larissa, Proteus, and Galatea</p>
+	
+	  
+    </div>
+    <div class="modal-footer">
+      <h1 style="color:white; font-size:200%;text-align:center;">NEPTUNE</h1>
+    </div>
+  </div>
+
+</div>
+
+<script>
+var modal = document.getElementById('myModal');
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0]; 
+btn.onclick = function() {modal.style.display = "block";}
+span.onclick = function() {modal.style.display = "none";}
+window.onclick = function(event){if(event.target == modal){ modal.style.display = "none";}}
+</script>
+
+</body>
+</html>
